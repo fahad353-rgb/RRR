@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket Air Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- rocket Header -->
+  <header class="RocketAir-header">
+    <nav>
+      <ul>
+        <!-- Hamburger Menu -->
+        <div class="menu-container">
+            <div class="menu-icon">☰</div>
+            <div class="menu-dropdown">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Careers</a>
+                <a href="#">Customer Care</a>
+            </div>
+        </div>
+        
+        <!--Rocket Logo -->
+
+          </a>
+          </li>
+        <!-- Dropdown Menus -->
+        <li class="dropdown">
+          <a href="#">Get In Touch</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Verticals</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Ideas</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">What We Do </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Brand</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Motion</a></li>
+            <li><a href="#">What we do</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Get To Know Us</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">We Are</a></li>
+            <li><a href="#">Rocket Air</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Strategy</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Our Capabilities</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Scalable systems</a></li>
+            <li><a href="#">Data-fueled design</a></li>
+            <li><a href="#">Adaptive agility</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Support</a></li>
+        <!-- Search and Cart Icons -->
+        <li class="search-icon">
+            <a href="#" id="search-toggle">
+              <i class="fas fa-search"></i>
+            </a>
+            <div class="search-dropdown" id="search-dropdown">
+              <input type="text" id="search-input" placeholder="Search for products...">
+              <button id="search-button">Go</button>
+            </div>
+        </li>  
+        <li class="cart-icon"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Digital
+        experiences</h1>
+        <h2>that Win by Design</h2>
+      <p></p>
+        
+      <a href="#features" class="btn">Check out the hype</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h1>RocketAir is a design and strategy</h1> 
+      <p>company with an adaptive approach</p><p> <h2>to problem solving.</h2>
+    <div class="feature-grid">
+      <!-- Brand -->
+      <div class="feature-item">
+
+        <div class="product-card"> 
+            <img id="iphone-image" src="images/3branding.jpg" alt="Brand">
+            <h2>Brand</h2>
+            <p>Unique brand identities that make a mark</p>
+        
+            <!-- Color Selection -->
+            <div class="color-options">
+                <div class="color-circle black" data-image="images/3branding.jpg"></div>
+                <div class="color-circle white" data-image="images/4branding.jpg"></div>
+                <div class="color-circle blue" data-image="images/6branding.jpg"></div>
+                <div class="color-circle gold" data-image="images/5branding.jpg"></div>
+            </div>
+        
+            
+        </div>
+
+        <a href="#" class="btn">Read more</a>
+      </div>
+      <!-- product -->
+      <div class="feature-item" data-product="Product">
+      <div class="product-card">
+        <img class="product-image" src="images/1poduct.jpg" alt="Product">
+        <h2>Product</h2>
+        <p>Intuitive products that people get</p>
+
+        <!-- Color Selection -->
+        <div class="color-options">
+            <div class="color-circle black" data-image="images/4product.jpg"></div>
+            <div class="color-circle white" data-image="images/3product.jpg"></div>
+        </div>
+      </div>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  
+      <!-- Motion -->
+      <div class="feature-item">
+        <img src="images/motion.jpg" 
+             alt="Motion" 
+             loading="lazy">
+        <h3>Motion</h3>
+        <p>Compelling animation that inspires action</p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy;2025 A casual hello from the RocketAir Crew filled with insights, inspiration, and good vibes only.</p>
+    <nav>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Sales and Refunds</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# RRR
+# RocketAir
 RockectAir landing page
 This project is a visually appealing and interactive product showcase for RocketAir.
 The website features a sleek theme with smooth animations using GSAP for elements such as the footer and dropdown menus. 
